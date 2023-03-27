@@ -105,7 +105,7 @@ runcmd npm install --global yarn
 
 # Get version 2.9.22 information for nginx-proxy-manager
 log "Checking for latest NPM release"
-runcmd 'wget $WGETOPT -O ./_latest_release $NPMURL/releases/latest'
+runcmd 'wget $WGETOPT -O ./_latest_release $NPMURL/releases/tag/v2.9.22'
 _latest_version=2.9.22
 
 # Download nginx-proxy-manager source
